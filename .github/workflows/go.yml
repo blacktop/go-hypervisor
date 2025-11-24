@@ -21,7 +21,7 @@ jobs:
   build-macos:
     runs-on: macos-14  # ARM64 runner
     steps:
-    - uses: actions/checkout@v5
+    - uses: actions/checkout@v6
 
     - name: Set up Go
       uses: actions/setup-go@v5
