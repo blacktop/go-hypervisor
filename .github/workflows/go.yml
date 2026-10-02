@@ -19,7 +19,7 @@ jobs:
 
   # Build and test on macOS ARM64 (build/lint only - no hypervisor access in CI)
   build-macos:
-    runs-on: macos-14  # ARM64 runner
+    runs-on: macos-latest  # ARM64 runner
     steps:
     - uses: actions/checkout@v5
 
